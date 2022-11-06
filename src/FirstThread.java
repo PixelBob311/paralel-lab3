@@ -27,7 +27,7 @@ public class FirstThread extends Thread {
                 array[i] = (copy[i + 1] + copy[i - 1]) / 2;
             }
             this.phaser.arriveAndAwaitAdvance();
-
+            //
 
 //            for (int i = start; i <= end; i++) {
 //                array[i] = main[i];
